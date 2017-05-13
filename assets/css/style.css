@@ -1,0 +1,30 @@
+body{
+	background-color: blue;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#title{
+	color: white;
+	height: 25%;
+}
+#start{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.question{
+	color: white;
+}
+#countdown{
+	color: white;
+}
+.response{
+	color: white;
+	margin-bottom: 5%;
+}
+#results{
+	color: white;
+	margin-bottom: 5%;
+}
+.answer{
+	width: 25%;
+}

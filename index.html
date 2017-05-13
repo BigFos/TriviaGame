@@ -5,79 +5,241 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
-<h1>Disney and Pixar Trivia</h1>
-<div id="q1">
-	<p>Question 1</p>
-	<div id="q1a"></div>
-	<div id="q1b"></div>
-	<div id="q1c"></div>
-	<div id="q1d"></div>
+<body class="col-md-12 col-sm-12 col-lg-12">
+<h1 id="title"><img src="assets/images/dis-castle.gif" alt="Disney Castle" style="width: 175px;height: 175px"> and <img src="assets/images/pixar-logo.gif" alt="Pixar Logo" style="width: 175px;height: 175px"> Trivia</h1>
+<br>
+<button class="btn-info btn-lg" id="start">Play</button>
+<h3 id="countdown">Time Remaining: <span id="timer"></span></h3>
+<br>
+<div class="question" id="q1">
+	<h3><strong>Which of the following movies is John Ratzenberger NOT in?</strong></h3>
+	<h2 class="answer q1i">Finding Dory</h2>
+	<h2 class="answer q1i">The Incredibles</h2>
+	<h2 class="answer" id="q1c">Zootopia</h2>
+	<h2 class="answer q1i">Toy Story</h2>
 </div>
-<div id="q2">
-	<p>Question 2</p>
-	<div id="q2a"></div>
-	<div id="q2b"></div>
-	<div id="q2c"></div>
-	<div id="q2d"></div>
+<div class="question" id="q2">
+	<h3><strong>What is the name of the prospector in Toy Story 2?</strong></h3>
+	<h2 class="answer q2i">Dirty Fred</h2>
+	<h2 class="answer" id="q2c">Stinky Pete</h2>
+	<h2 class="answer q2i">Lucky Willy</h2>
+	<h2 class="answer q2i">Sly Jack</h2>
 </div>
-<div id="q3">
-	<p>Question 3</p>
-	<div id="q3a"></div>
-	<div id="q3b"></div>
-	<div id="q3c"></div>
-	<div id="q3d"></div>
+<div class="question" id="q3">
+	<h3><strong>Which movie had a tiger named Rajah?</strong></h3>
+	<h2 class="answer q3i">Jungle Book</h2>
+	<h2 class="answer" id="q3c">Aladdin</h2>
+	<h2 class="answer q3i">Zootopia</h2>
+	<h2 class="answer q3i">Lion King</h2>
 </div>
-<div id="q4">
-	<p>Question 4</p>
-	<div id="q4a"></div>
-	<div id="q4b"></div>
-	<div id="q4c"></div>
-	<div id="q4d"></div>
+<div class="question" id="q4">
+	<h3><strong>What insect do the ants have to defend themselves against in the movie A Bug's Life?</strong></h3>
+	<h2 class="answer" id="q4c">Hopper the grasshopper</h2>
+	<h2 class="answer q4i">P.T. the flea</h2>
+	<h2 class="answer q4i">Chirpy the cricket</h2>
+	<h2 class="answer q4i">Greg the butterfly</h2>
 </div>
-<div id="q5">
-	<p>Question 5</p>
-	<div id="q5a"></div>
-	<div id="8q5b"></div>
-	<div id="q5c"></div>
-	<div id="q5d"></div>
+<div class="question" id="q5">
+	<h3><strong>How many puppies are in Pongo and Purdi's litter?</strong></h3>
+	<h2 class="answer q5i">10</h2>
+	<h2 class="answer" id="q5c">15</h2>
+	<h2 class="answer q5i">101</h2>
+	<h2 class="answer q5i">102</h2>
 </div>
-<div id="q6">
-	<p>Question 6</p>
-	<div id="q6a"></div>
-	<div id="q6b"></div>
-	<div id="q6c"></div>
-	<div id="q6d"></div>
+<div class="question" id="q6">
+	<h3><strong>What was Goofy's original name?</strong></h3>
+	<h2 class="answer q6i">Goof E. George</h2>
+	<h2 class="answer q6i">Pluto Peterson</h2>
+	<h2 class="answer q6i">Fred Ruff</h2>
+	<h2 class="answer" id="q6c">Dippy Dawg</h2>
 </div>
-<div id="q7">
-	<p>Question 7</p>
-	<div id="q7a"></div>
-	<div id="q7b"></div>
-	<div id="q7c"></div>
-	<div id="q7d"></div>
+<div class="question" id="q7">
+	<h3><strong>What is the name of Simba's mom?</strong></h3>
+	<h2 class="answer q7i">Saranwrape</h2>
+	<h2 class="answer" id="q7c">Sarabi</h2>
+	<h2 class="answer q7i">Nala</h2>
+	<h2 class="answer q7i">Poswana</h2>
 </div>
-<div id="q8">
-	<p>Question 8</p>
-	<div id="q8a"></div>
-	<div id="q8b"></div>
-	<div id="q8c"></div>
-	<div id="q8d"></div>
+<div class="question" id="q8">
+	<h3><strong>Which of the following is NOT one of the fairy godmothers from Sleeping Beauty?</strong></h3>
+	<h2 class="answer q8i">Flora</h2>
+	<h2 class="answer q8i">Fauna</h2>
+	<h2 class="answer" id="q8c">Rose</h2>
+	<h2 class="answer q8i">Merryweather</h2>
 </div>
-<div id="q9">
-	<p>Question 9</p>
-	<div id="q9a"></div>
-	<div id="q9b"></div>
-	<div id="q9c"></div>
-	<div id="q9d"></div>
+<div class="question" id="q9">
+	<h3><strong>Which movie takes place in France?</strong></h3>
+	<h2 class="answer q9i">101 Dalmatians</h2>
+	<h2 class="answer" id="q9c">Beauty and the Beast</h2>
+	<h2 class="answer q9i">Lady and the Tramp</h2>
+	<h2 class="answer q9i">Dumbo</h2>
 </div>
-<div id="q10">
-	<p>Question 10</p>
-	<div id="q10a"></div>
-	<div id="q10b"></div>
-	<div id="q10c"></div>
-	<div id="q10d"></div>
+<div class="question" id="q10">
+	<h3><strong>Which of the following is NOT one of the Seven Dwarfs in Snow White?</strong></h3>
+	<h2 class="answer q10i">Sleepy</h2>
+	<h2 class="answer q10i">Bashful</h2>
+	<h2 class="answer" id="q10c">Shorty</h2>
+	<h2 class="answer q10i">Happy</h2>
 </div>
-<img src="assets/images/genie-app.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+<div class="response" id="q1r">
+	<h3>Right!</h3>
+	<h3>The correct answer is: <strong>Zootopia</strong></h3>
+	<img src="assets/images/nemo-good.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q1w">
+	<h3>Wrong!</h3>
+	<h3>The correct answer is: <strong>Zootopia</strong></h3>
+	<img src="assets/images/ham-dont.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q2r">
+	<h3>Right!</h3>
+	<h3>The correct answer is: <strong>Stinky Pete</strong></h3>
+	<img src="assets/images/stinky-right.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q2w">
+	<h3>Wrong!</h3>
+	<h3>The correct answer is: <strong>Stinky Pete</strong></h3>
+	<img src="assets/images/stinky-wrong.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q3r">
+	<h3>Right!</h3>
+	<h3>The correct answer is: <strong>Aladdin</strong></h3>
+	<img src="assets/images/genie-app.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q3w">
+	<h3>Wrong!</h3>
+	<h3>The correct answer is: <strong>Aladdin</strong></h3>
+	<img src="assets/images/rajah-diss.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q4r">
+	<h3>Right!</h3>
+	<h3>The correct answer is: <strong>Hopper the grasshopper</strong></h3>
+	<img src="assets/images/hopper-right.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q4w">
+	<h3>Wrong!</h3>
+	<h3>The correct answer is: <strong>Hopper the grasshopper</strong></h3>
+	<img src="assets/images/hopper-wrong.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q5r">
+	<h3>Right!</h3>
+	<h3>The correct answer is: <strong>15</strong></h3>
+	<img src="assets/images/dal-right.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q5w">
+	<h3>Wrong!</h3>
+	<h3>The correct answer is: <strong>15</strong></h3>
+	<img src="assets/images/dal-wrong.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q6r">
+	<h3>Right!</h3>
+	<h3>The correct answer is: <strong>Dippy Dawg</strong></h3>
+	<img src="assets/images/goofy-right.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q6w">
+	<h3>Wrong!</h3>
+	<h3>The correct answer is: <strong>Dippy Dawg</strong></h3>
+	<img src="assets/images/goofy-wrong.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q7r">
+	<h3>Right!</h3>
+	<h3>The correct answer is: <strong>Sarabi</strong></h3>
+	<img src="assets/images/lion-right.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q7w">
+	<h3>Wrong!</h3>
+	<h3>The correct answer is: <strong>Sarabi</strong></h3>
+	<img src="assets/images/lion-wrong.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q8r">
+	<h3>Right!</h3>
+	<h3>The correct answer is: <strong>Rose</strong></h3>
+	<img src="assets/images/fairy-right.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q8w">
+	<h3>Wrong!</h3>
+	<h3>The correct answer is: <strong>Rose</strong></h3>
+	<img src="assets/images/fairy-wrong.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q9r">
+	<h3>Right!</h3>
+	<h3>The correct answer is: <strong>Beauty and the Beast</strong></h3>
+	<img src="assets/images/beast-right.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q9w">
+	<h3>Wrong!</h3>
+	<h3>The correct answer is: <strong>Beauty and the Beast</strong></h3>
+	<img src="assets/images/beast-wrong.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q10r">
+	<h3>Right!</h3>
+	<h3>The correct answer is: <strong>Shorty</strong></h3>
+	<img src="assets/images/dwarf-right.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q10w">
+	<h3>Wrong!</h3>
+	<h3>The correct answer is: <strong>Shorty</strong></h3>
+	<img src="assets/images/dwarf-wrong.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q1t">
+	<h3>Times Up!</h3>
+	<h3>The correct answer is: <strong>Zootopia</strong></h3>
+	<img src="assets/images/think.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q2t">
+	<h3>Times Up!</h3>
+	<h3>The correct answer is: <strong>Stinky Pete</strong></h3>
+	<img src="assets/images/think.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q3t">
+	<h3>Times Up!</h3>
+	<h3>The correct answer is: <strong>Aladdin</strong></h3>
+	<img src="assets/images/think.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q4t">
+	<h3>Times Up!</h3>
+	<h3>The correct answer is: <strong>Hopper the grasshopper</strong></h3>
+	<img src="assets/images/think.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q5t">
+	<h3>Times Up!</h3>
+	<h3>The correct answer is: <strong>15</strong></h3>
+	<img src="assets/images/think.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q6t">
+	<h3>Times Up!</h3>
+	<h3>The correct answer is: <strong>Dippy Dawg</strong></h3>
+	<img src="assets/images/think.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q7t">
+	<h3>Times Up!</h3>
+	<h3>The correct answer is: <strong>Sarabi</strong></h3>
+	<img src="assets/images/think.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q8t">
+	<h3>Times Up!</h3>
+	<h3>The correct answer is: <strong>Rose</strong></h3>
+	<img src="assets/images/think.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q9t">
+	<h3>Times Up!</h3>
+	<h3>The correct answer is: <strong>Beauty and the Beast</strong></h3>
+	<img src="assets/images/think.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div class="response" id="q10t">
+	<h3>Times Up!</h3>
+	<h3>The correct answer is: <strong>Shorty</strong></h3>
+	<img src="assets/images/think.gif" alt="Genie Applause" style="width: 200px;height: 200px">
+</div>
+<div id="results">
+	<h3>Finished</h3>
+	<h3>Here is how you did:</h3>
+	<h2>Correct: <span id="correctAns"></span></h2>
+	<h2>Incorrect: <span id="incorrectAns"></span></h2>
+	<h2>Timed out: <span id="nonAns"></span></h2>
+	<img src="assets/images/dis-done.gif" alt="Castle Fireworks" style="width: 200px;height: 200px">
+	<button class="btn-info btn-lg" id="restart">Play Again?</button>
+</div>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 <script type="text/javascript" src="assets/javascript/app.js"></script>
