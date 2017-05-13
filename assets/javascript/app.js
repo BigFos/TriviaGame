@@ -60,6 +60,7 @@ $(document).ready(function() {
     	$("#correctAns").html(correctAns);
     	$("#incorrectAns").html(incorrectAns);
     	$("#nonAns").html(nonAns);
+    	$("#restart").show();
     }
     // Starts the countdown timer
     function run() {
@@ -101,6 +102,9 @@ $(document).ready(function() {
         $("#results").hide();
         run();
         q1();
+        correctAns = 0;
+    	incorrectAns = 0;
+    	nonAns = 0;
     })
     // Sets background color to Light Blue when the mouse hovers over it and turns back to blue
     $(".answer").hover(function() {
